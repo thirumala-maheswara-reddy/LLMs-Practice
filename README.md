@@ -13,9 +13,6 @@ This repository contains my journey and experiments with Large Language Models (
 - [Summarization](#summarization)
 - [Pipelining](#pipelining)
 - [Text Classification](#text-classification)
-- [Further Learning](#further-learning)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 Large Language Models (LLMs) have revolutionized natural language processing (NLP) by enabling a wide range of applications such as text generation, summarization, translation, and classification. This repository documents my learning and experiments with LLMs using the Hugging Face Transformers library.
@@ -47,11 +44,3 @@ To get started with the code and experiments in this repository, you'll need to 
    ```bash
    Sentiment Analysis
    ```
-
-## Importing Hugging Face into Jupyter Notebook
-To begin using LLMs, we first need to import the Hugging Face library into our Jupyter Notebook. Here's how to do it:
-
-```python
-import transformers
-from transformers import pipeline
-import gradio as gr
